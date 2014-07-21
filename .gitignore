@@ -1,0 +1,11 @@
+.idea/
+Thumbs.db
+*.psd
+#LaTeX
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.cls
+*.bcf
+*.run.xml
