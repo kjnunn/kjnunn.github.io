@@ -142,7 +142,7 @@
 }
 \renewcommand{\bfseries}{\headingfont\color{headercolor}}
 \newcommand{\entry}[4]{%
-  #1&\parbox[t]{11.8cm}{%
+  #1&\parbox[t]{11cm}{%
     \textbf{#2}%
     \hfill%
     {\footnotesize\addfontfeature{Color=lightgray} #3}\\%
@@ -176,5 +176,5 @@
 % Other tweaks %
 %%%%%%%%%%%%%%%%
 
-\RequirePackage[left=6.1cm,top=2.5cm,right=1cm,bottom=2.5cm,nohead,nofoot,a4paper]{geometry}
+\RequirePackage[left=6.1cm,top=2.5cm,right=1.5cm,bottom=2.5cm,nohead,nofoot,a4paper]{geometry}
 \RequirePackage{hyperref}
