@@ -86,7 +86,7 @@
     };
   \end{tikzpicture}
   \vspace{2.5cm}
-  \vspace{-2\parskip}
+  \vspace{-4\parskip}
 }
 
 
@@ -113,7 +113,7 @@
 }
 
 \renewcommand{\section}[1]{
-  \par\vspace{4\parskip}
+  \par\vspace{\parskip}
   {%
     \LARGE\headingfont\color{headercolor}%
     \@sectioncolor #1%
@@ -146,7 +146,7 @@
     \textbf{#2}%
     \hfill%
     {\footnotesize\addfontfeature{Color=lightgray} #3}\\%
-    #4\vspace{4\parsep}%
+    #4\vspace{2\parsep}%
   }\\}
 
 
