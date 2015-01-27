@@ -1,4 +1,6 @@
 .idea/
+bower_components/
+node_modules/
 Thumbs.db
 #LaTeX
 *.aux
@@ -7,3 +9,4 @@ Thumbs.db
 *.synctex.gz
 *.bcf
 *.run.xml
+.yo-rc.json

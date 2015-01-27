@@ -15,7 +15,7 @@
 
     <!-- Bootstrap Core CSS -->
     <link href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.2/flatly/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <link href="css/index.min.css" rel="stylesheet" type="text/css">
+    <link href="css/index.css" rel="stylesheet" type="text/css">
 
     <!-- Fonts -->
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -23,427 +23,518 @@
 
     <!-- IE8 support for HTML5 elements and media queries -->
     <!--[if lt IE 9]>
-      <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
 </head>
 
 <body id="page-top" class="index">
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#page-top">Kat Nunn</a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#portfolio">Portfolio</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#about">About</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+<!-- Navigation -->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#page-top">Kat Nunn</a>
         </div>
-        <!-- /.container-fluid -->
-    </nav>
 
-    <!-- Header -->
-    <header>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="hidden">
+                    <a href="#page-top"></a>
+                </li>
+                <li class="page-scroll">
+                    <a href="#portfolio">Portfolio</a>
+                </li>
+                <li class="page-scroll">
+                    <a href="#about">About</a>
+                </li>
+                <li class="page-scroll">
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+
+<!-- Header -->
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <img class="img-responsive" src="assets/img/profile.png" alt="">
+
+                <div class="intro-text">
+                    <span class="name">Kat Nunn</span>
+                    <hr class="star-light">
+                    <span class="skills">Classicist - Copy Writer - All Round Nice Person</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Portfolio Grid Section -->
+<section id="portfolio">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2>Portfolio</h2>
+                <hr class="star-primary">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4 portfolio-item">
+                <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                    <div class="caption">
+                        <div class="caption-content">
+                            <i class="fa fa-search-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="assets/img/portfolio/1.png" class="img-responsive" alt="">
+                </a>
+            </div>
+            <div class="col-sm-4 portfolio-item">
+                <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                    <div class="caption">
+                        <div class="caption-content">
+                            <i class="fa fa-search-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="assets/img/portfolio/2.png" class="img-responsive" alt="">
+                </a>
+            </div>
+            <div class="col-sm-4 portfolio-item">
+                <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                    <div class="caption">
+                        <div class="caption-content">
+                            <i class="fa fa-search-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="assets/img/portfolio/3.png" class="img-responsive" alt="">
+                </a>
+            </div>
+            <div class="col-sm-4 portfolio-item">
+                <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                    <div class="caption">
+                        <div class="caption-content">
+                            <i class="fa fa-search-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="assets/img/portfolio/4.png" class="img-responsive" alt="">
+                </a>
+            </div>
+            <div class="col-sm-4 portfolio-item">
+                <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                    <div class="caption">
+                        <div class="caption-content">
+                            <i class="fa fa-search-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="assets/img/portfolio/5.png" class="img-responsive" alt="">
+                </a>
+            </div>
+            <div class="col-sm-4 portfolio-item">
+                <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                    <div class="caption">
+                        <div class="caption-content">
+                            <i class="fa fa-search-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="assets/img/portfolio/6.png" class="img-responsive" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- About Section -->
+<section class="success" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2>About</h2>
+                <hr class="star-light">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-lg-offset-2">
+                <p>I'm a recent graduate from Girton College, Cambridge, where I read Classics. During my time there, I
+                    took up rowing and was part of Girton's most successful women's crew in ten years. In my final year,
+                    I was elected Chief Editor of the Classics Society newspaper, captained the lower men's boat and
+                    graduated with a 2:1.</p>
+            </div>
+            <div class="col-lg-4">
+                <p>Now I'm looking to start a career in copy writing and communications. I am an energetic, creative
+                    individual, used to producing high-quality work under pressure and to tight deadlines... and I make
+                    a great cappuccino!</p>
+            </div>
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <a href="cv/cv.pdf" class="btn btn-lg btn-outline">
+                    <i class="fa fa-download"></i> Download CV
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2>Contact Me</h2>
+                <hr class="star-primary">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <form role="form" method="post" action="//formspree.io/kjnunn30@gmail.com">
+                    <div class="row">
+                        <div class="form-group col-xs-12 floating-label-form-group">
+                            <label for="name">Name</label>
+                            <input class="form-control" id="name" type="text" name="name" placeholder="Name">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group col-xs-12 floating-label-form-group">
+                            <label for="email">Email Address</label>
+                            <input class="form-control" type="email" id="email" name="replyto"
+                                   placeholder="Email Address">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group col-xs-12 floating-label-form-group">
+                            <label for="message">Message</label>
+                            <textarea placeholder="Message" class="form-control" id="message" rows="5"
+                                      name="message"></textarea>
+                        </div>
+                    </div>
+                    <br>
+
+                    <div class="row">
+                        <div class="form-group col-xs-12">
+                            <button type="submit" class="btn btn-lg btn-success" value="Send">Send</button>
+                        </div>
+                    </div>
+                    <input type="hidden" name="_next" id="_next" value="#"/>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="text-center">
+    <div class="footer-above">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-offset-2 footer-col col-md-4">
+                    <h3>Location</h3>
+
+                    <p>Copenhagen, Denmark</p>
+                </div>
+                <div class="footer-col col-md-4">
+                    <h3>Around the Web</h3>
+                    <ul class="list-inline">
+                        <li><a href="https://twitter.com/k_j_nunn" class="btn-social btn-outline"><i
+                                class="fa fa-fw fa-twitter"></i></a>
+                        </li>
+                        <li><a href="https://www.linkedin.com/in/katnunn" class="btn-social btn-outline"><i
+                                class="fa fa-fw fa-linkedin"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-below">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <img class="img-responsive" src="img/profile.png" alt="">
-                    <div class="intro-text">
-                        <span class="name">Kat Nunn</span>
-                        <hr class="star-light">
-                        <span class="skills">Classicist - Copy Writer - All Round Nice Person</span>
-                    </div>
+                    Copyright &copy; <span id="copyright-year"></span> - Kat Nunn
                 </div>
             </div>
         </div>
-    </header>
+    </div>
+</footer>
 
-    <!-- Portfolio Grid Section -->
-    <section id="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Portfolio</h2>
-                    <hr class="star-primary">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/1.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/2.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/3.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/4.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/5.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/6.png" class="img-responsive" alt="">
-                    </a>
+<!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+<div class="scroll-top page-scroll visible-xs visble-sm">
+    <a class="btn btn-primary" href="#page-top">
+        <i class="fa fa-chevron-up"></i>
+    </a>
+</div>
+
+<!-- Portfolio Modals -->
+<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
                 </div>
             </div>
         </div>
-    </section>
-
-    <!-- About Section -->
-    <section class="success" id="about">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>About</h2>
-                    <hr class="star-light">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
-                    <p>I'm a recent graduate from Girton College, Cambridge, where I read Classics. During my time there, I took up rowing and was part of Girton's most successful women's crew in ten years. In my final year, I was elected Chief Editor of the Classics Society newspaper, captained the lower men's boat and graduated with a 2:1.</p>
-                </div>
-                <div class="col-lg-4">
-                    <p>Now I'm looking to start a career in copy writing and communications. I am an energetic, creative individual, used to producing high-quality work under pressure and to tight deadlines... and I make a great cappuccino!</p>
-                </div>
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <a href="cv/cv.pdf" class="btn btn-lg btn-outline">
-                        <i class="fa fa-download"></i> Download CV
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Contact Me</h2>
-                    <hr class="star-primary">
-                </div>
-            </div>
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <form role="form" method="post" action="//formspree.io/kjnunn30@gmail.com">
-                        <div class="row">
-                            <div class="form-group col-xs-12 floating-label-form-group">
-                                <label for="name">Name</label>
-                                <input class="form-control" id="name" type="text" name="name" placeholder="Name">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="form-group col-xs-12 floating-label-form-group">
-                                <label for="email">Email Address</label>
-                                <input class="form-control" type="email" id="email" name="replyto" placeholder="Email Address">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="form-group col-xs-12 floating-label-form-group">
-                                <label for="message">Message</label>
-                                <textarea placeholder="Message" class="form-control" id="message" rows="5" name="message"></textarea>
-                            </div>
-                        </div>
-                        <br>
-                        <div class="row">
-                            <div class="form-group col-xs-12">
-                                <button type="submit" class="btn btn-lg btn-success" value="Send">Send</button>
-                            </div>
-                        </div>
-                        <input type="hidden" name="_next" id="_next" value="#"/>
-                    </form>
+                    <div class="modal-body">
+                        <h2>Opinion Piece</h2>
+                        <hr class="star-primary">
+                        <h3>The media's current obsession with celebrity - good or bad?</h3>
+
+                        <p>Current obsession? Celebrity worship has been around for millennia. Gladiators were the rock
+                            stars of the Roman world- the people of Pompeii didn’t need social media to obsess over
+                            celebrities, graffiti did the trick: ‘Celadus the Thracian gladiator is the delight of all
+                            the girls’. Gladiators were even known to give celebrity product endorsements.</p>
+
+                        <p>So an obsession with celebrities is hardly a new thing, but then again it hardly goes to
+                            prove that it’s a good thing. Besides, a Youtube video can spread faster and wider than any
+                            graffito. This age of connectivity has encouraged more and more trivial 'news'- the kind of
+                            information only stalkers used to know (...not that I was a stalker). It’s as if the more
+                            we’re able to know, the more we want to know.</p>
+
+                        <p>And this had opened a great big can of worms.</p>
+
+                        <p>Many have an obsession with celebrity, but a few have an obsession with being a celebrity.
+                            This deluge of information has made them want it, and allowed them to get it. So now it’s a
+                            lose-lose situation. We’re invading the privacy of the well-balanced celebrities, and
+                            enabling the narcissism of the rest. Is this level of information healthy for either of us?
+                            It just feels so vacuous- couldn't our thirst for knowledge be better sated on current
+                            events? (Or Romans… whatever.) Is the media even going so far as to ‘distract’ us with
+                            celebrity gossip? I’ve heard accusations that the American media has been ignoring the
+                            Ukrainian riots in favour of the arrest of Justin Bieber. Call me paranoid, but discontent
+                            has been festering since the NSA and Snowden scandals… Well, the Roman senators always knew
+                            how to put on a big show, at any rate.</p>
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
+                            Close
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</div>
+<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <h2>Fairbairns ‘13 race report - W1</h2>
+                        <hr class="star-primary">
+                        <h3>Race report for GCBC website and social media</h3>
 
-    <footer class="text-center">
-        <div class="footer-above">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-offset-2 footer-col col-md-4">
-                        <h3>Location</h3>
-                        <p>Copenhagen, Denmark</p>
+                        <p>We marshalled super early- standard for the Girton ladies! We were in high spirits, though
+                            I’m not sure whether we were excited to race or just for the Fort St George and BCD later.
+                            Either way, we had a great time on the bank spotting other (ahem-men’s) crews and having a
+                            chat with the Christ’s alumni crew next to us. One of them was just in her one-piece (it’s
+                            Fairbairns so of course it was freezing!)... too keen, six! </p>
+
+                        <p>Anyway, so then we actually raced. I couldn’t feel my hands until well past the P&E. Should
+                            have lengthened out a bit more. It hurt. When Kai called for ‘up one on the legs’ for our
+                            final push, we accidentally went up to rate 36. But we did it! (In 19:22.5 to be exact.) We
+                            were a little disappointed with our time, but the current was a lot slower than last year,
+                            and we placed above our rivals for lent bumps. And on the bright side we had time to get out
+                            the boat again at the lock, so there was plenty of time for a crew photo and some more boat
+                            spotting...</p>
+
+                        <p>So bring on Lent term- training camp, swaps and Bumps! </p>
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
+                            Close
+                        </button>
                     </div>
-                    <div class="footer-col col-md-4">
-                        <h3>Around the Web</h3>
-                        <ul class="list-inline">
-                            <li><a href="https://twitter.com/k_j_nunn" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <h2>Copy for GCBC website</h2>
+                        <hr class="star-primary">
+                        <h3>Girton College Boat Club is looking for new rowers and coxes! Absolutely no experience
+                            required!</h3>
+
+                        <h4>What’s it like?</h4>
+
+                        <p>Rowing is a great team sport: fun, but also really rewarding. It’s really satisfying to see
+                            your hard work paying off as you get a little bit better every time you practice, especially
+                            during your first term, when you’ll come along leaps and bounds.</p>
+
+                        <p>Besides, rowing is a quintessential Cambridge sport; pretty much everyone has a go at some
+                            point during their time here. We run short taster sessions at the beginning of term. Give it
+                            a go, and see if it’s for you!</p>
+
+                        <h4>You really want someone like me?</h4>
+
+                        <p>Yes!</p>
+
+                        <p>You don't need to be a 6ft fitness god to become a rower, or a 4ft midget to become a
+                            cox!</p>
+
+                        <p>No experience (at all!) is required; in fact most of the club had never been anywhere near a
+                            boat until they joined GCBC. </p>
+
+                        <h4>Do I have to get up early?</h4>
+
+                        <p>Crews fit their training sessions around their own availabilities. While some crews prefer
+                            getting up early in the morning, others train exclusively in the afternoons and at
+                            weekends.</p>
+
+                        <h4>…and in the evenings?</h4>
+
+                        <p>No society would be complete without socials. You’ll get to know the lovely people in your
+                            own boat club, as well as plenty of strapping young men and women from other colleges.
+                            Throughout term we do:</p>
+                        <ul>
+                            <li>Swaps with other crews- either at formal hall, or a curry house</li>
+                            <li>GCBC Curries- our boat club’s start of term tradition</li>
+                            <li>Pub Crawls- self explanatory</li>
+                            <li>Crew Meals- load up on carbs the evening before a race by sharing an enormous meal
+                                (usually pasta) with your crew mates
                             </li>
-                            <li><a href="https://www.linkedin.com/in/katnunn" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                            <li>May Bumps Marquee: Every year on the Saturday of May Bumps we host the GCBC Marquee.
+                                Serving food and drink to race spectators all afternoon, the Marquee is always a popular
+                                race day destination.
                             </li>
                         </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer-below">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        Copyright &copy; 2014 - Kat Nunn
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
 
-    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-    <div class="scroll-top page-scroll visible-xs visble-sm">
-        <a class="btn btn-primary" href="#page-top">
-            <i class="fa fa-chevron-up"></i>
-        </a>
-    </div>
+                        <h4>Interested?</h4>
 
-    <!-- Portfolio Modals -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Opinion Piece</h2>
-                            <hr class="star-primary">
-                            <h3>The media's current obsession with celebrity - good or bad?</h3>
-                            <p>Current obsession? Celebrity worship has been around for millennia. Gladiators were the rock stars                            of the Roman world- the people of Pompeii didn’t need social media to obsess over celebrities, graffiti did the trick: ‘Celadus the Thracian gladiator is the delight of all the girls’. Gladiators were even known to give celebrity product endorsements.</p>
-                            <p>So an obsession with celebrities is hardly a new thing, but then again it hardly goes to prove that it’s a good thing. Besides, a Youtube video can spread faster and wider than any graffito. This age of connectivity has encouraged more and more trivial 'news'- the kind of information only stalkers used to know (...not that I was a stalker). It’s as if the more we’re able to know, the more we want to know.</p>
-                            <p>And this had opened a great big can of worms.</p>
-                            <p>Many have an obsession with celebrity, but a few have an obsession with being a celebrity. This deluge of information has made them want it, and allowed them to get it. So now it’s a lose-lose situation. We’re invading the privacy of the well-balanced celebrities, and enabling the narcissism of the rest. Is this level of information healthy for either of us? It just feels so vacuous- couldn't our thirst for knowledge be better sated on current events? (Or Romans… whatever.) Is the media even going so far as to ‘distract’ us with celebrity gossip? I’ve heard accusations that the American media has been ignoring the Ukrainian riots in favour of the arrest of Justin Bieber. Call me paranoid, but discontent has been festering since the NSA and Snowden scandals… Well, the Roman senators always knew how to put on a big show, at any rate.</p>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
+                        <p>We’ll be at Girton’s societies fair (Monday from 15:15). Come say hello, ask questions, or
+                            sign up for a taster session!</p>
+
+                        <p>Or email: <a href="mailto:lower.boat.captains@girtoncollegeboatclub.com">lower.boat.captains@girtoncollegeboatclub.com</a>
+                        </p>
+
+                        <p>Tweet: <a href="https://twitter.com/GirtonCollegeBC">@GirtonCollegeBC</a></p>
+
+                        <p>Find us on Facebook: <a href="https://www.facebook.com/GirtonCollegeBoatClub">https://www.facebook.com/GirtonCollegeBoatClub</a>
+                        </p>
+
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
+                            Close
+                        </button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
+</div>
+<div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
                 </div>
             </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Fairbairns ‘13 race report - W1</h2>
-                            <hr class="star-primary">
-                            <h3>Race report for GCBC website and social media</h3>
-                            <p>We marshalled super early- standard for the Girton ladies! We were in high spirits, though I’m not                                sure whether we were excited to race or just for the Fort St George and BCD later. Either way, we had a great time on the bank spotting other (ahem-men’s) crews and having a chat with the Christ’s alumni crew next to us. One of them was just in her one-piece (it’s Fairbairns so of course it was freezing!)... too keen, six! </p>
-                            <p>Anyway, so then we actually raced. I couldn’t feel my hands until well past the P&E. Should have lengthened out a bit more. It hurt. When Kai called for ‘up one on the legs’ for our final push, we accidentally went up to rate 36. But we did it! (In 19:22.5 to be exact.) We were a little disappointed with our time, but the current was a lot slower than last year, and we placed above our rivals for lent bumps. And on the bright side we had time to get out the boat again at the lock, so there was plenty of time for a crew photo and some more boat spotting...</p>
-                            <p>So bring on Lent term- training camp, swaps and Bumps! </p>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <h2>Res Novae Lent Edition</h2>
+                        <hr class="star-primary">
+                        <img src="assets/img/portfolio/Res Novae Lent edition 1-0.jpg"
+                             class="img-responsive img-centered" alt="">
+                        <img src="assets/img/portfolio/Res Novae Lent edition 1-1.jpg"
+                             class="img-responsive img-centered" alt="">
+                        <img src="assets/img/portfolio/Res Novae Lent edition 1-2.jpg"
+                             class="img-responsive img-centered" alt="">
+                        <img src="assets/img/portfolio/Res Novae Lent edition 1-3.jpg"
+                             class="img-responsive img-centered" alt="">
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
+                            Close
+                        </button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
+</div>
+<div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
                 </div>
             </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Copy for GCBC website</h2>
-                            <hr class="star-primary">
-                            <h3>Girton College Boat Club is looking for new rowers and coxes! Absolutely no experience required!</h3>
-
-                            <h4>What’s it like?</h4>
-                            <p>Rowing is a great team sport: fun, but also really rewarding. It’s really satisfying to see your hard work paying off as you get a little bit better every time you practice, especially during your first term, when you’ll come along leaps and bounds.</p>
-                            <p>Besides, rowing is a quintessential Cambridge sport; pretty much everyone has a go at some point during their time here. We run short taster sessions at the beginning of term.  Give it a go, and see if it’s for you!</p>
-
-                            <h4>You really want someone like me?</h4>
-                            <p>Yes!</p>
-                            <p>You don't need to be a 6ft fitness god to become a rower, or a 4ft midget to become a cox!</p>
-                            <p>No experience (at all!) is required; in fact most of the club had never been anywhere near a boat until they joined GCBC. </p>
-
-                            <h4>Do I have to get up early?</h4>
-                            <p>Crews fit their training sessions around their own availabilities. While some crews prefer getting up early in the morning, others train exclusively in the afternoons and at weekends.</p>
-
-                            <h4>…and in the evenings?</h4>
-                            <p>No society would be complete without socials. You’ll get to know the lovely people in your own boat club, as well as plenty of strapping young men and women from other colleges. Throughout term we do:</p>
-                            <ul>
-                                <li>Swaps with other crews- either at formal hall, or a curry house</li>
-                                <li>GCBC Curries- our boat club’s start of term tradition</li>
-                                <li>Pub Crawls- self explanatory</li>
-                                <li>Crew Meals- load up on carbs the evening before a race by sharing an enormous meal (usually pasta) with your crew mates</li>
-                                <li>May Bumps Marquee: Every year on the Saturday of May Bumps we host the GCBC Marquee. Serving food and drink to race spectators all afternoon, the Marquee is always a popular race day destination.</li>
-                            </ul>
-
-                            <h4>Interested?</h4>
-                            <p>We’ll be at Girton’s societies fair (Monday from 15:15). Come say hello, ask questions, or sign up for a taster session!</p>
-                            <p>Or email: <a href="mailto:lower.boat.captains@girtoncollegeboatclub.com">lower.boat.captains@girtoncollegeboatclub.com</a></p>
-                            <p>Tweet: <a href="https://twitter.com/GirtonCollegeBC">@GirtonCollegeBC</a></p>
-                            <p>Find us on Facebook: <a href="https://www.facebook.com/GirtonCollegeBoatClub">https://www.facebook.com/GirtonCollegeBoatClub</a></p>
-
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <h2>Res Novae Saturnalia Edition</h2>
+                        <hr class="star-primary">
+                        <img src="assets/img/portfolio/Res Novae Saturnalia edition-0.jpg"
+                             class="img-responsive img-centered" alt="">
+                        <img src="assets/img/portfolio/Res Novae Saturnalia edition-1.jpg"
+                             class="img-responsive img-centered" alt="">
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
+                            Close
+                        </button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Res Novae Lent Edition</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/Res Novae Lent edition 1-0.jpg" class="img-responsive img-centered" alt="">
-                            <img src="img/portfolio/Res Novae Lent edition 1-1.jpg" class="img-responsive img-centered" alt="">
-                            <img src="img/portfolio/Res Novae Lent edition 1-2.jpg" class="img-responsive img-centered" alt="">
-                            <img src="img/portfolio/Res Novae Lent edition 1-3.jpg" class="img-responsive img-centered" alt="">
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
+</div>
+<div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
                 </div>
             </div>
         </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Res Novae Saturnalia Edition</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/Res Novae Saturnalia edition-0.jpg" class="img-responsive img-centered" alt="">
-                            <img src="img/portfolio/Res Novae Saturnalia edition-1.jpg" class="img-responsive img-centered" alt="">
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Project Title</h2>
-                            <hr class="star-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <h2>Project Title</h2>
+                        <hr class="star-primary">
 
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
+                            Close
+                        </button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+</div>
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="js/classie.min.js"></script>
-    <script src="js/cbpAnimatedHeader.min.js"></script>
-    <script src="js/index.min.js"></script>
-    <script src="js/ga.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+<script src="js/index.js"></script>
 
 </body>
 

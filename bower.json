@@ -1,0 +1,7 @@
+{
+  "name": "kjnunn.github.io",
+  "homepage": "https://github.com/kjnunn/kjnunn.github.io",
+  "dependencies": {
+    "classie": "~1.0.1"
+  }
+}
