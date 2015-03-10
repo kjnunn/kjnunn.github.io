@@ -94,6 +94,7 @@
 % Structure %
 %%%%%%%%%%%%%
 \RequirePackage{parskip}
+\RequirePackage{setspace}
 
 \newcounter{colorCounter}
 \def\@sectioncolor#1#2#3{%
