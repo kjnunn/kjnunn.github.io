@@ -35,5 +35,5 @@ function addCopyrightYear() {
 
 window.onload = function() {
     addCopyrightYear();
-}
+};
 

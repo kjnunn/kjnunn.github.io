@@ -36,17 +36,17 @@ module.exports = function (grunt) {
             main: {
                 expand: true,
                 cwd: 'assets/img/',
-                src: ['*.{png,jpg,gif}'],
+                src: ['{,*/}*.{png,jpg,gif}'],
                 dest: 'img/'
             }
         },
 
         image_resize: {
-            resNovae: {
+            FooDoo: {
                 options: {
                     width: 710
                 },
-                src: 'img/portfolio/Res Novae*',
+                src: 'img/portfolio/foodoo**',
                 dest: 'img/portfolio/'
             },
             tiles: {
