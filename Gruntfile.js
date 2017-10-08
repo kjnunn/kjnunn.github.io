@@ -41,33 +41,6 @@ module.exports = function (grunt) {
             }
         },
 
-        image_resize: {
-            FooDoo: {
-                options: {
-                    width: 710
-                },
-                src: [
-                    'img/portfolio/foodoo-email.png',
-                    'img/portfolio/foodoo-social.png'
-                ],
-                dest: 'img/portfolio/'
-            },
-            tiles: {
-                options: {
-                    width: 360
-                },
-                src: [
-                    'img/portfolio/1.png',
-                    'img/portfolio/2.png',
-                    'img/portfolio/3.png',
-                    'img/portfolio/4.png',
-                    'img/portfolio/5.png',
-                    'img/portfolio/6.png'
-                ],
-                dest: 'img/portfolio/'
-            }
-        },
-
         imagemin: {
             dynamic: {
                 options: {
@@ -92,6 +65,6 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-copy');
 
     // Default task
-    grunt.registerTask('default', ['concat', 'uglify', 'cssmin', 'copy', 'image_resize', 'imagemin']);
+    grunt.registerTask('default', ['concat', 'uglify', 'cssmin', 'copy', 'imagemin']);
 };
 
