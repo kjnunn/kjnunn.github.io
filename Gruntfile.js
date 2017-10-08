@@ -46,7 +46,10 @@ module.exports = function (grunt) {
                 options: {
                     width: 710
                 },
-                src: 'img/portfolio/foodoo**',
+                src: [
+                    'img/portfolio/foodoo-email.png',
+                    'img/portfolio/foodoo-social.png'
+                ],
                 dest: 'img/portfolio/'
             },
             tiles: {

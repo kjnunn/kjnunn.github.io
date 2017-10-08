@@ -456,3 +456,8 @@ ul {
     float: none;
     text-align: justify;
 }
+
+li {
+    text-align: left;
+    font-size: 20px;
+}
