@@ -6,9 +6,9 @@
     "grunt": "1.x",
     "grunt-contrib-concat": "1.x",
     "grunt-contrib-copy": "1.x",
-    "grunt-contrib-cssmin": "1.x",
-    "grunt-contrib-imagemin": "1.x",
-    "grunt-contrib-uglify": "2.x",
+    "grunt-contrib-cssmin": "2.x",
+    "grunt-contrib-imagemin": "2.x",
+    "grunt-contrib-uglify": "3.x",
     "grunt-image-resize": "1.x"
   }
 }
