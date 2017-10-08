@@ -50,7 +50,7 @@
 %%%%%%%%%
 
 \RequirePackage[quiet]{fontspec}
-\RequirePackage[math-style=TeX,vargreek-shape=unicode]{unicode-math}
+\RequirePackage{unicode-math}
 
 \newfontfamily\bodyfont[]{Montserrat}
 \newfontfamily\thinfont[]{Montserrat Thin}
@@ -114,7 +114,7 @@
 }
 
 \renewcommand{\section}[1]{
-  \par\vspace{\parskip}
+  \par\vspace{4\parskip}
   {%
     \LARGE\headingfont\color{headercolor}%
     \@sectioncolor #1%
